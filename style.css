@@ -1,0 +1,23 @@
+
+		* {box-sizing: border-box;}
+		body {margin:0; padding: 10px; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-content: center; background: powderblue;}
+
+		header { width:100%; }
+		h1	{font: Arial; color: darkblue; font-size: 20px; margin-left: 50px; margin-bottom:20px; border-top: 3px solid white; border-left: 3px solid white; padding: 10px; margin-top: -20px}
+
+		header, .also, .felso {  border: 1px solid powderblue; min-height: 50px; }
+		.felso { flex:1; display: flex; justify-content: center; }
+		.felso img:hover { border:3px solid white; cursor: pointer; }
+		.also { flex:2; display: flex; justify-content: center; }
+
+		.also img {width: 90%; display: flex; justify-content: center;}
+		.felso img {width: 23%; vertical-align: top; margin-bottom: 10px; padding: 10px; }
+
+		#vaszon { position:fixed; left:0; top:0; width:100%;height:100%; justify-content: center; align-items: center; display: none; background: #000a; }
+		#iksz {color: white; font-size: 50px; position: absolute; top: 50px; right: 50px; border: 1px solid white; border-radius: 15px; padding: 10px; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; cursor: pointer;}
+		#iksz:hover {color: black; background: white;}
+
+		#jobbra { color:white; margin-left: 20px; font-size: 35px; cursor: pointer;}
+		#balra { color:white; margin-right: 20px; font-size: 35px; cursor: pointer;}
+
+		#vaszon img { max-height:100% ; max-width: 100%; }
