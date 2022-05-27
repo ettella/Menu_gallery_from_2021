@@ -1,2 +1,2 @@
 # Menu_gallery_from_2021
-Javascript practice 
+Javascript practice  from 2021
